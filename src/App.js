@@ -1,5 +1,7 @@
+import { Header } from "./components/Header";
+
 function App() {
-    return <div className="bg-red-500">hola</div>;
+    return <Header />;
 }
 
 export default App;
