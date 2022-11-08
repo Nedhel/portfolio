@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body{
+        background: #333541;
+        font-family: 'Roboto','Tahoma';
+        font-size: 18px;
+        color:white;
+    }
+}
+
+@layer utilities {
+    li:hover div{
+        background-image: conic-gradient(transparent, transparent, transparent, #00ccff );
+        animation: borderFancy 2s linear infinite;
+    }
+    @keyframes borderFancy {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
+      }
+  }
