@@ -1,3 +1,9 @@
+import Carlos from '../assets/CarlosZ.png'
+
 export function Home(){
-    return <div>Hola</div>
+    return (
+        <div className='mask'>
+            <img src={Carlos} alt="YO" />
+        </div>
+    )
 }

@@ -4,7 +4,7 @@
 
 @layer base{
     body{
-        background: #333541;
+        background: #212329;
         font-family: 'Roboto','Tahoma';
         font-size: 18px;
         color:white;
@@ -20,4 +20,7 @@
         from {transform: rotate(0deg);}
         to {transform: rotate(360deg);}
       }
+    .mask{
+        mask-image: linear-gradient(black, black, transparent);
+    }
   }
