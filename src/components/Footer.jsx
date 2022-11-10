@@ -11,8 +11,8 @@ export function Footer(){
                 <SiGmail className="text-2xl mx-3" />
                 <SiLinkedin className="text-2xl mx-3" />
             </div>
-            <div className="w-full text-right">
-                <p>Todos los Derechos Reservados</p>
+            <div className="w-full text-right border-b-2 border-terciary text-xs">
+                <p>&#169; 2022. All Rights Reserved.</p>
             </div>
         </footer>
     )
