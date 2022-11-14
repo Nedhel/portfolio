@@ -8,6 +8,10 @@ module.exports = {
                 secondary: "#212329",
                 terciary: "#00ccff",
             },
+            screens: {
+                sm: "360px",
+                // => @media (min-width: 992px) { ... }
+            },
         },
     },
     plugins: [],
