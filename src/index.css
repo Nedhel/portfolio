@@ -23,7 +23,7 @@
     .mask{
         mask-image: linear-gradient(black, black, transparent);
     }
-    .break-word{
-        overflow-wrap: break-word;
+    .text-shadow{
+        text-shadow: 0 5px 12px #0f0
     }
   }
