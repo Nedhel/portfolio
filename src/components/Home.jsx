@@ -57,7 +57,7 @@ export function Home(){
             </div>
             <div className=''></div>
         </div>
-        <div className='border bg-black opacity-60 absolute left-0 top-0 w-full h-full overflow-hidden'>
+        <div className='absolute left-0 top-0 w-full h-full overflow-hidden'>
             <div className='flex relative rotate-[-30deg] -top-96'>
                 <div className='flex animate-animate1'>
                     <DiCode className='text-transparent [transition:1s] text-6xl select-none hover:text-terciary hover:[transition:0s] '/>
