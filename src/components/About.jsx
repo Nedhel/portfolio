@@ -1,19 +1,72 @@
-import { SiReact, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiGit, SiGithub, SiJirasoftware } from "react-icons/si";
+import {Skill} from './Skill'
+import { AboutText } from './AboutText'
 
 export function About(){
+    const skills=[{
+        id:1,
+        name:'HTML',
+        textColor:'text-orange-700',
+        percentage:'w-11/12',
+        bgColor:'bg-orange-700'
+    },
+    {
+        id:2,
+        name:'CSS',
+        textColor:'text-blue-800',
+        percentage:'w-11/12',
+        bgColor:'bg-blue-800'
+    },
+    {
+        id:3,
+        name:'JAVASCRIPT',
+        textColor:'text-yellow-400',
+        percentage:'w-4/5',
+        bgColor:'bg-yellow-400'
+    },
+    {
+        id:4,
+        name:'REACT',
+        textColor:'text-cyan-400',
+        percentage:'w-1/2',
+        bgColor:'bg-cyan-400'
+    },
+    {
+        id:5,
+        name:'GIT',
+        textColor:'text-orange-700',
+        percentage:'w-1/5',
+        bgColor:'bg-orange-700'
+    },
+    {
+        id:6,
+        name:'GITHUB',
+        textColor:'text-white',
+        percentage:'w-2/5',
+        bgColor:'bg-white'
+    },
+    {
+        id:7,
+        name:'TAILWIND',
+        textColor:'text-cyan-500',
+        percentage:'w-4/6',
+        bgColor:'bg-cyan-500'
+    },
+    {
+        id:8,
+        name:'JIRA',
+        textColor:'text-blue-700',
+        percentage:'w-3/5',
+        bgColor:'bg-blue-700'
+    }]
     return (
-    <div className="text-4xl">
-        <label htmlFor="react-icon">React</label>
-        <SiReact id="react-icon" className="text-sky-500" />
-        <div className="w-[75px] h-2 rounded-md border"><div className="w-1/2 h-full bg-yellow-400"></div></div>
-        <br />
-        <SiHtml5 className="text-orange-500" />
-        <SiCss3 className="text-blue-800" />
-        <SiTailwindcss className="text-sky-400" />
-        <SiJavascript className="text-yellow-400" />
-        <SiGit className="text-orange-700" />
-        <SiGithub className="" />
-        <SiJirasoftware className="text-cyan-600" />        
-    </div>
+        <>
+        <h1 className='text-terciary text-2xl font-semibold text-center'>Habilidades</h1>
+        <div className='flex justify-around'>
+        {skills.map(item=>{
+            return item.id<5?<Skill skill={item} key={item.id} />:null 
+        })}
+        </div>
+        <AboutText/>
+        </>
     )
 }

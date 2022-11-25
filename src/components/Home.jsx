@@ -8,7 +8,7 @@ export function Home(){
             <div className=''></div>
             <div className=''></div>
             <div className=''></div>
-            <div className=' justify-self-center animate-bounce z-10'>
+            <div className=' justify-self-center z-10'>
                 <span className='bg-terciary p-2'>Front-End Developer</span>
             </div>
             <div className='row-span-5 mask z-10'><img src={Carlos} alt="YO" /></div>
