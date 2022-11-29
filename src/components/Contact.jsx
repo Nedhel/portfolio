@@ -1,22 +1,10 @@
-export function Contact(){
-    const desserts = [
-        {
-          title: 'Chocolate Cake',
-          description: 'Chocolate cake is a cake flavored with melted chocolate',
-          calories: 500,
-        }
-      ];
-      
-      const newDesserts = desserts.map((dessert) => {
-        return {   
-            ...dessert,       
-            title: dessert.title.toUpperCase(),
-            kCal: dessert.calories / 1000,
-          
-        };
-      });
-      console.log(newDesserts)
+
+import { Card } from "./Card";
+export function Contact(){    
     return(
-        null
+        <div className="flex flex-col items-center h-96 justify-around">
+          <h1 className="font-semibold text-xl">Contacto</h1>
+            <Card />
+        </div>
     )
 }
