@@ -10,11 +10,14 @@ function App() {
         <div className="flex flex-col min-h-screen">
             <Header />
             <main className="flex-grow relative">
-                <Routes>
+                <Home />
+                <About />
+                <Contact />
+                {/*<Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
                     <Route path="/Contact" element={<Contact />} />
-                </Routes>
+    </Routes>*/}
             </main>
             <Footer />
         </div>
