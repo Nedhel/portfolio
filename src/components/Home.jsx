@@ -18,6 +18,7 @@ export function Home(){
                         malesuada, eros et tincidunt consectetur, nulla risus lobortis enim, 
                         ac euismod lacus ligula nec metus
                     </p>
+                    <button className='border-terciary border-2 text-terciary bg-transparent w-fit px-3 py-1 self-center'>Descargar CV</button>
                 </div>
                 <div className='w-1/2 h-3/4 flex flex-col justify-between'>
                     <div className='bg-gradient-to-tr from-transparent to-gray-700 text-sm p-3 max-w-fit'>
