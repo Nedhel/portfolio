@@ -4,6 +4,7 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Routes, Route } from "react-router-dom";
+import { Skills } from "./components/Skills";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <main className="flex-grow relative">
                 <Home />
                 <About />
+                <Skills />
                 <Contact />
                 {/*<Routes>
                     <Route path="/" element={<Home />} />

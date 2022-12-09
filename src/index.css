@@ -29,4 +29,7 @@
     .bg-conic{
         background-image: radial-gradient(#42527080, #303744, #272C35, #272C35);
     }
+    .replace-text{
+        transform: rotate(-30deg) skewX(-30deg);
+    }
   }
