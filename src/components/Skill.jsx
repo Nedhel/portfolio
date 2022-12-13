@@ -35,8 +35,8 @@ export function Skill({skill}){
         <div className="flex flex-col justify-around items-center w-28 h-32">
             <h3 className="text-lg font-bold">{skill.name}</h3>
             <div>{element}</div>
-            <div className="w-full h-2 rounded-md bg-gray-900">
-                <div className={`h-full ${skill.bgColor} ${skill.percentage} rounded-sm`}></div>
+            <div className="w-full rounded-md bg-gray-900">
+                <div className={`h-full ${skill.bgColor} ${skill.percentage} rounded-md text-xs`}>{skill.knowladge}/100</div>
             </div>
         </div>
     )

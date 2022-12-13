@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Routes, Route } from "react-router-dom";
 import { Skills } from "./components/Skills";
+import { Latestwork } from "./components/Latestwork";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <About />
                 <Skills />
                 <Contact />
+                <Latestwork />
                 {/*<Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
