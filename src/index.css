@@ -8,6 +8,18 @@
         font-family: 'Roboto','Tahoma';
         font-size: 18px;
         color:white;
+        
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+      
+    ::-webkit-scrollbar-track {
+        background: transparent
+    }
+       
+    ::-webkit-scrollbar-thumb {
+        background: rgb(207, 208, 209); 
     }
 }
 
@@ -31,5 +43,19 @@
     }
     .replace-text{
         transform: rotate(-30deg) skewX(-30deg);
+    }
+    .dropdown-description{
+        height: 80px;
+        width: 100%;
+        top: 75%;
+        position: absolute;
+        transition: transform 1s;
+        z-index:-1;
+        background-color: transparent;
+        border: solid 1px white;
+    }
+    div:hover > .dropdown-description{        
+        transform: translate(0,80px);
+
     }
   }
