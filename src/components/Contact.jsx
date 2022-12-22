@@ -7,7 +7,7 @@ export function Contact(){
             <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> Contacto</h1>         
             
                 <p>Gracias por interesarte en ponerte en contacto comigo sera un placer trabajar juntos
-                    te dejo mis medios de contacto.
+                    te dejo los medios por los que podemos estar en contacto.
                 </p>
                 <div className="grid grid-cols-2 justify-items-center gap-8">
                     <div className="col-span-2">
