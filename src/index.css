@@ -33,10 +33,7 @@
         to {transform: rotate(360deg);}
       }
     .mask{
-        mask-image: linear-gradient(black, black, transparent);
-    }
-    .text-shadow{
-        text-shadow: 0 5px 12px #0f0
+        mask-image: linear-gradient(to right , transparent,black 8%, black 93%, transparent);
     }
     .bg-conic{
         background-image: radial-gradient(#42527080, #303744, #272C35, #272C35);
@@ -47,15 +44,17 @@
     .dropdown-description{
         height: 80px;
         width: 100%;
-        top: 75%;
+        top: 80%;
         position: absolute;
         transition: transform 1s;
         z-index:-1;
         background-color: transparent;
-        border: solid 1px white;
     }
     div:hover > .dropdown-description{        
         transform: translate(0,80px);
 
+    }
+    div:hover > .arrow{        
+        display: block;
     }
   }
