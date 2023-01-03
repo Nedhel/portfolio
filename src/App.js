@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
-import { Routes, Route } from "react-router-dom";
+import { Element } from "react-scroll";
 import { Skills } from "./components/Skills";
 import { Latestwork } from "./components/Latestwork";
 
@@ -12,11 +12,21 @@ function App() {
         <div className="flex flex-col min-h-screen">
             <Header />
             <main className="flex-grow relative">
-                <Home />
-                <About />
-                <Skills />
-                <Contact />
-                <Latestwork />
+                <Element name="Home">
+                    <Home />
+                </Element>
+                <Element name="About">
+                    <About />
+                </Element>
+                <Element name="Skills">
+                    <Skills />
+                </Element>
+                <Element name="Contact">
+                    <Contact />
+                </Element>
+                <Element name="Latestwork">
+                    <Latestwork />
+                </Element>
                 {/*<Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
