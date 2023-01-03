@@ -67,7 +67,7 @@ export function Skills(){
         knowladge: 60
     }]
     return (
-        <div className="h-96 flex flex-col justify-between">
+        <div className="h-screen flex flex-col justify-between">
             <svg className='w-full h-32'>            
             <polygon points="0,0 0,128 300,128 300,50 600,50 600,10 900,10 900,128 1200,128 1200,20 1300,20 1300,128 1400,128 1400,0 " className='fill-secondary' />
             <polygon points="0,180 0,20 150,20 150,100 300,100 300,180 900,180 900,60 1000,60 1000,180 1300,180 1300,0 1350,0 1350,180 " className='fill-stone-800' />
