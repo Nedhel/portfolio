@@ -1,14 +1,15 @@
 import {HiOutlineChip} from "react-icons/hi";
 import { SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
+import { useContext } from 'react'
+import LanguageContext from '../context/LanguageContext'
 
-export function Contact(){    
+export function Contact(){   
+    const {text} = useContext(LanguageContext) 
     return(
         <div className="flex flex-col items-center h-screen justify-evenly">
-            <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> Contacto</h1>         
+            <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> {text.menuContact}</h1>         
             
-                <p>Gracias por interesarte en ponerte en contacto comigo sera un placer trabajar juntos
-                    te dejo los medios por los que podemos estar en contacto.
-                </p>
+                <p>{text.thanksText}</p>
                 <div className="grid grid-cols-2 justify-items-center gap-8">
                     <div className="col-span-2">
                         <a href="https://www.linkedin.com/in/carlos-nedhel-zalpa-garcia-a8067322a/" target='_blank' rel='noreferrer'><SiLinkedin className="inline text-4xl"/> linkedin.com/in/carlos-nedhel-zalpa-garcia-a8067322a</a>

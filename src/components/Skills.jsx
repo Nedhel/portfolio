@@ -1,7 +1,10 @@
 import { Skill } from "./Skill"
 import {HiOutlineChip} from "react-icons/hi";
+import { useContext } from 'react'
+import LanguageContext from '../context/LanguageContext'
 
 export function Skills(){
+    const {text}=useContext(LanguageContext)
     const skills=[{
         id:1,
         name:'HTML',
@@ -73,7 +76,7 @@ export function Skills(){
             <polygon points="0,180 0,20 150,20 150,100 300,100 300,180 900,180 900,60 1000,60 1000,180 1300,180 1300,0 1350,0 1350,180 " className='fill-stone-800' />
             Sorry, your browser does not support inline SVG.
             </svg>
-            <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> Habilidades</h1>         
+            <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> {text.menuSkills}</h1>         
             <div className='flex justify-around'>
             {skills.map(item=>{
                 return item.id<5?<Skill skill={item} key={item.id} />:null 
