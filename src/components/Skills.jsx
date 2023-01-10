@@ -77,7 +77,7 @@ export function Skills(){
             Sorry, your browser does not support inline SVG.
             </svg>
             <h1 className='font-bold text-2xl text-center'><HiOutlineChip className='inline text-terciary'/> {text.menuSkills}</h1>         
-            <div className='flex justify-around'>
+            <div className='flex justify-around flex-wrap'>
             {skills.map(item=>{
                 return item.id<5?<Skill skill={item} key={item.id} />:null 
             })}
