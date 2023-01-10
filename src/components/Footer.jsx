@@ -2,7 +2,7 @@ import { SiGmail, SiGithub, SiLinkedin } from "react-icons/si";
 
 export function Footer(){
     return(
-        <footer className="bg-primary flex flex-wrap justify-evenly">
+        <footer className="bg-primary flex flex-wrap justify-evenly absolute bottom-0 left-0 right-0">
             <div className="w-1/3">
                 <span>Carlos <strong>Zalpa</strong></span>
             </div>

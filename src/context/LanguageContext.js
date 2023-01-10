@@ -33,6 +33,9 @@ const dictionary = {
         project5Name: "Juego de Gato",
         project5Description:
             "Juego clasico de gato, hecho para 2 jugadores, creado con HTML, CSS y JS.",
+        project6Name: "Tarjeta de Credito Virtual",
+        project6Description:
+            "Tarjeta virtual que genera un CVV dinamico con duracion de 10 segundos, creada con React",
     },
     en: {
         menuAbout: "About",
@@ -64,6 +67,9 @@ const dictionary = {
         project5Name: "Tic Tac Toe game",
         project5Description:
             "Tic Tac Toe is a classic game for 2 players, made with HTML, CSS y JS.",
+        project6Name: "Virtual Credit Card",
+        project6Description:
+            "you can get a dynamic CVV number every 10 seconds, made with React",
     },
 };
 
