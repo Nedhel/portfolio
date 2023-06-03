@@ -1,0 +1,4 @@
+.effect3d {
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);
+}
