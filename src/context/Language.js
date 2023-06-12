@@ -4,10 +4,11 @@ const Language = createContext();
 
 const dictionary = {
     es: {
-        menuAbout: "Sobre mi",
+        menuAbout: "Bienvenida",
         menuSkills: "Habilidades",
         menuContact: "Contacto",
         menuProjects: "Projectos",
+        greeting: "Holaaa!!",
         introduceText:
             "Soy un desarrollador web de México, actualmente viviendo en Canada. Disfruto crear interfaces que ayuden a mejorar la interaccion de usuarios. Si tienes algún proyecto Contactame!!",
         codeEducation: "Ingeniero en Sistemas Computacionales",
@@ -38,10 +39,11 @@ const dictionary = {
             "Tarjeta virtual que genera un CVV dinamico con duracion de 10 segundos, creada con React",
     },
     en: {
-        menuAbout: "About",
+        menuAbout: "Greeting",
         menuSkills: "Skills",
         menuContact: "Contact",
         menuProjects: "Projects",
+        greeting: "Hellooo!!",
         introduceText:
             "I am a web developer from Mexico, currently living in Canada. I enjoy make friendly and simple interfaces. If you have some project in mind, let me know!",
         codeEducation: "Bachelor's Degree Computer System Engineer",
