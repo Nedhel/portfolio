@@ -1,34 +1,54 @@
 import { Greeting } from './Greeting'
 import { Routes, Route, Link } from "react-router-dom"
 import { Skills } from './Skills'
+import { Contact } from './Contact'
+import { Work } from './Work'
 import Language from '../context/Language'
 import { useContext } from 'react'
+import { useState } from 'react'
 export function Main(){
     const {text}=useContext(Language)
+    const [number,setNumber]=useState(0)
+    function select(num){
+        setNumber(num)
+    }
     return(
-        <main className="border flex-1 flex flex-wrap">
-            <nav className="border flex-none w-52 p-4 flex justify-center items-center">
-                <div className='fancyborder relative  '>
-                    <div className='flex flex-col list-none bg-[#111111] w-32 rounded-tl-md'>
+        <>
+            <nav className="item2 m-auto z-0">
+                <div className='fancysmallborder relative'>
+                    <div className='flex flex-col list-none bg-[#111111] rounded-tl-md'>
                         <Link to="skills" className='p-3'>{text.menuSkills}</Link>
-                        <Link to="about" className='p-3'>{text.menuContact}</Link>
-                        <ul className='border p-3'>
-                            <li>Projectos</li>
+                        <Link to="contact" className='p-3'>{text.menuContact}</Link>
+                        <ul className=' p-3 space-y-2'>
+                            <li>{text.menuProjects} :</li>
                             <li className='pl-3'>
-                            <Link to="about" className='p-3'>{text.menuContact}</Link>
+                            <Link to="projects" className='p-3' onClick={()=>{select(1)}}>{text.project1Name}</Link>
+                            </li>
+                            <li className='pl-3'>
+                            <Link to="projects" className='p-3' onClick={()=>{select(2)}}>{text.project2Name}</Link>
+                            </li>
+                            <li className='pl-3'>
+                            <Link to="projects" className='p-3' onClick={()=>{select(3)}}>{text.project3Name}</Link>
+                            </li>
+                            <li className='pl-3'>
+                            <Link to="projects" className='p-3' onClick={()=>{select(4)}}>{text.project4Name}</Link>
+                            </li>
+                            <li className='pl-3'>
+                            <Link to="projects" className='p-3' onClick={()=>{select(5)}}>{text.project5Name}</Link>
                             </li>
                         </ul>
-                                          
+                                            
                     </div>
                 </div>
             </nav>
-            <div className="border border-red-500 flex-final w-52 flex flex-col justify-center items-center p-3">
-            <Routes>
-                <Route path="/"  element={<Greeting />} />
-                <Route path="about" element={ <Skills /> } />                
-                <Route path="skills" element={ <Skills /> } />                
-            </Routes>
+            <div className="item3 m-auto">
+                <Routes>
+                    <Route path="/"  element={<Greeting />} />
+                    <Route path="skills" element={ <Skills /> } />                
+                    <Route path="contact" element={ <Contact /> } />                
+                    <Route path="projects" element={ <Work number={number} /> } />                
+                </Routes>
             </div>
-        </main>
+        </>
     )
 }
