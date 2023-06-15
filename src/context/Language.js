@@ -8,15 +8,15 @@ const dictionary = {
         menuSkills: "Habilidades",
         menuContact: "Contacto",
         menuProjects: "Projectos",
-        greeting: "Holaaa!!",
+        greeting: "Hola!!",
         introduceText:
-            "Soy un desarrollador web de México, actualmente viviendo en Canada. Disfruto crear interfaces que ayuden a mejorar la interaccion de usuarios. Si tienes algún proyecto Contactame!!",
+            "Soy un desarrollador web con sede en Canadá. Disfruto hacer interfaces amigables y limpias.",
         codeEducation: "Ingeniero en Sistemas Computacionales",
         codeSkills: "Analitico, Trabajo en equipo",
         codeLanguage: "Inglés",
         buttonDownload: "Descargar CV",
         aboutText:
-            "Soy ingeniero en Sistemas Computacionales egresado del Instituto Tecnologico de Morelia, trabaje durante 8 años para Telefonos de Mexico (Telmex) como supervisor y desarrollador de aplicaciones internas, actualmente dirigi mi carrera al desarrollo front-end con REACT como principal libreria JS",
+            "Soy Ingeniero en Computación egresado del Instituto Tecnológico de Morelia, trabajé 8 años como supervisor y desarrollador para una empresa de telefonía mexicana (Telmex), y actualmente trabajo como desarrollador front-end con REACT. Si tienes algún proyecto en mente, ¡avísame!",
         thanksText:
             "Gracias por interesarte en ponerte en contacto comigo sera un placer trabajar juntos.",
         project1Name: "Clon de WhatsApp",
@@ -45,7 +45,7 @@ const dictionary = {
         menuSkills: "Skills",
         menuContact: "Contact",
         menuProjects: "Projects",
-        greeting: "Hellooo!!",
+        greeting: "Hello!!",
         introduceText:
             "I am a web developer based in Canada. I enjoy make friendly and clean interfaces.",
         codeEducation: "Bachelor's Degree Computer System Engineer",

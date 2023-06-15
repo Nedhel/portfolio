@@ -45,7 +45,7 @@ export function Work({number}){
             <ul className='px-4 border-l-4 border-[#2BA30A] leading-loose text-justify'>
                 {
                     arrayLinks.map((item)=>{
-                        return <li key={item}><Link to={link[item]} className='border-b-2 border-[#2BA30A]'>{item}</Link></li>
+                        return <li key={item}><Link to={link[item]} target='_blank' className='border-b-2 border-[#2BA30A]'>{item}</Link></li>
                     })
                 }
             </ul>
