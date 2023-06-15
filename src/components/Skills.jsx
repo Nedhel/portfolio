@@ -40,17 +40,17 @@ export function Skills(){
         id:5,
         name:'GIT',
         textColor:'text-orange-700',
-        percentage:'w-1/3',
+        percentage:'w-1/2',
         bgColor:'bg-orange-700',
-        knowladge: 30
+        knowladge: 50
     },
     {
         id:6,
         name:'GITHUB',
         textColor:'text-white',
-        percentage:'w-2/5',
+        percentage:'w-1/2',
         bgColor:'bg-slate-700',
-        knowladge: 40
+        knowladge: 50
     },
     {
         id:7,
@@ -69,9 +69,9 @@ export function Skills(){
         knowladge: 60
     }]
     return (
-        <div className="flex flex-col justify-between border gap-3 md:gap-10 lg:gap-20">
+        <div className="flex flex-col justify-between gap-3 md:gap-10 lg:gap-20">
             <h1 className='font-bold text-2xl'>{text.menuSkills}</h1>         
-            <div className='flex justify-around flex-wrap gap-4 px-4 border-l-4 border-[#151C9E]'>
+            <div className='flex justify-around flex-wrap gap-4 px-4 border-l-4 border-[#2BA30A]'>
             {skills.map(item=>{
                 return item.id<10?<Skill skill={item} key={item.id} />:null 
             })}

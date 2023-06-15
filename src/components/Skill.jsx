@@ -32,11 +32,11 @@ export function Skill({skill}){
             break;
     }
     return(
-        <div className="flex flex-col justify-around items-center w-14 md:w-16 lg:w-28 gap-2">
-            <h3 className="lg:text-lg text-base font-bold">{skill.name}</h3>
+        <div className="flex flex-col justify-around items-center w-12 md:w-16 lg:w-28 gap-2">
+            <h3 className="lg:text-lg text-xs lg:font-bold">{skill.name}</h3>
             <div>{element}</div>
             <div className="w-full rounded-md bg-slate-200">
-                <div className={`h-full bg-[#EBB607] ${skill.percentage} rounded-md text-base text-center`}>{skill.knowladge}/100</div>
+                <div className={`h-full bg-[#518C41] ${skill.percentage} rounded-md text-base text-center`}>{skill.knowladge}/100</div>
             </div>
         </div>
     )
