@@ -21,22 +21,24 @@ const dictionary = {
             "Gracias por interesarte en ponerte en contacto comigo sera un placer trabajar juntos.",
         project1Name: "Clon de WhatsApp",
         project1Description:
-            "Creada con HTML, CSS y JS. Tiene la funcion de enviar y recibir mensajes y mostrar la notificacion de los mismos",
-        project2Name: "Aplicacion de Recordatorio",
+            "Este proyecto fue de los primeros que realice con la finalidad de practicar y entender cómo funcionaba HTML, CSS y JavaScript, es una copia visual de Whatsapp con un par de funciones reales como mandar mensaje y recibir mensaje mediante la consola del navegador, creado con HTML, CSS y JavaScript",
+        links1: { Git: "https://github.com/Nedhel/clone-WA" },
+        project2Name: "Tarjeta de Credito Virtual",
         project2Description:
-            "Aplicacion que te muestra una alerta visual y sonora de tus pendientes, creado con HTML, CSS y TypeScript.",
-        project3Name: "Aplicacion de Notas",
+            "Este proyecto se trata de una tarjeta virtual que genera un número de seguridad dinámico cada vez que se pulsa el botón, la duración del numero de seguridad es 10 segundos, tambien agregue algunos efectos de movimiento como lo hacen algunas aplicaciones de banco, creada con React and Tailwind.",
+        links2: { Git: "https://github.com/Nedhel/creditcard" },
+        project3Name: "Tarjetas Publicitarias",
         project3Description:
-            "Puedes agregar, eliminar y editar el contenido de las notas, el contenido se guarda en localStorage, creado con HTML, CSS y JS.",
-        project4Name: "Aplicacion de Pendientes",
+            "Pensé en crear este proyecto como una forma de presentar algún producto o algún anuncio sobre una nueva película, creando una ilusión de movimiento y de interacción con el usuario, creada con React.",
+        links3: { Git: "https://github.com/Nedhel/animation_card" },
+        project4Name: "FAAR Agentes de Importación",
         project4Description:
-            "Primera aplicacion que hice usando React, ejercicio simple para crear, eliminar y marcar pendientes.",
-        project5Name: "Juego de Gato",
+            "Este iba a ser la página real de un cliente que se dedica a apoyar a pequeñas empresas que realizan importaciones de material o de maquinaria desde otro país hacia México, al final el cliente tuvo que cerrar su empresa y ya no se completo el proyecto, creado con React y Tailwind",
+        links4: { Git: "https://github.com/Nedhel/faar" },
+        project5Name: "Sacos Nacionales Especializados",
         project5Description:
-            "Juego clasico de gato, hecho para 2 jugadores, creado con HTML, CSS y JS.",
-        project6Name: "Tarjeta de Credito Virtual",
-        project6Description:
-            "Tarjeta virtual que genera un CVV dinamico con duracion de 10 segundos, creada con React",
+            "Es pagina fue creada para un cliente cuya empresa es la creación, comercialización y venta de costales de polipropileno para envasar diferentes productos, en su mayoría fue creada con WordPress agregando algunas modificaciones con CSS",
+        links5: { Web: "http://sacosnacionales.com.mx/" },
     },
     en: {
         menuAbout: "Greeting",
@@ -45,33 +47,35 @@ const dictionary = {
         menuProjects: "Projects",
         greeting: "Hellooo!!",
         introduceText:
-            "I am a web developer from Mexico, currently living in Canada. I enjoy make friendly and simple interfaces. If you have some project in mind, let me know!",
+            "I am a web developer based in Canada. I enjoy make friendly and clean interfaces.",
         codeEducation: "Bachelor's Degree Computer System Engineer",
         codeSkills: "Analytic mind, Work well in team",
         codeLanguage: "English",
         buttonDownload: "Download Resume",
         aboutText:
-            "I am a Computer Engineer who graduated from Instituto Tecnologico de Morelia, I worked 8 years for a Mexican telephony company (Telmex) as a supervisor and developer, and currently, I'm working as a front-end developer with REACT",
+            "I am a Computer Engineer graduated from Instituto Tecnologico de Morelia, I worked 8 years as a supervisor and developer for a Mexican telephony company (Telmex), and currently, I'm working as a front-end developer with REACT. If you have some project in mind, let me know!",
         thanksText:
             "Thank you for your interest, it will be a pleasure working together.",
         project1Name: "WhatsApp clone",
         project1Description:
-            "Made with HTML, CSS and JS. It shows new message notifications and you can send and receive messages as well",
-        project2Name: "Reminder App",
+            "This project was one of the first that I did with the purpose of practicing and understanding how HTML, CSS and JavaScript worked, it is a visual copy of WhatsApp with a couple of real functions such as sending messages and receiving messages through the browser console, created with HTML , CSS and JavaScript",
+        links1: { Git: "https://github.com/Nedhel/clone-WA" },
+        project2Name: "Virtual Credit Card",
         project2Description:
-            "It shows you a visual and sound alert from your notes, made with HTML, CSS and TypeScript.",
-        project3Name: "Notes App",
+            "This project is about a virtual card that generates a dynamic security number every time the button is pressed, the duration of the security number is 10 seconds, I also added some movement effects like some bank applications do, created with React and Tailwind.",
+        links2: { Git: "https://github.com/Nedhel/creditcard" },
+        project3Name: "Advertising Cards",
         project3Description:
-            "You can add, delete and edit notes, and these save in local storage, made with HTML, CSS and JS.",
-        project4Name: "To Do list App",
+            "I thought of creating this project as a way to present some product or some announcement about a new movie, creating an illusion of movement and interaction with the user, created with React.",
+        links3: { Git: "https://github.com/Nedhel/animation_card" },
+        project4Name: "FAAR Fordwarder",
         project4Description:
-            "This was my first React app, it is a simple app for creating, deleting, and marking as done every task.",
-        project5Name: "Tic Tac Toe game",
+            "This was going to be the real page of a client who is dedicated to supporting small companies that import material or machinery from another country to Mexico, in the end the client had to close his company and the project was no longer completed, created with React and Tailwind",
+        links4: { Git: "https://github.com/Nedhel/faar" },
+        project5Name: "Sacos Nacionales Especializados",
         project5Description:
-            "Tic Tac Toe is a classic game for 2 players, made with HTML, CSS y JS.",
-        project6Name: "Virtual Credit Card",
-        project6Description:
-            "you can get a dynamic CVV number every 10 seconds, made with React",
+            "This page was created for a client whose company is the creation, marketing and sale of polypropylene sacks to pack different products, mostly it was created with WordPress adding some modifications with CSS",
+        links5: { Web: "http://sacosnacionales.com.mx/" },
     },
 };
 
