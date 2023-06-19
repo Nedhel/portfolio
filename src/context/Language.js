@@ -4,19 +4,19 @@ const Language = createContext();
 
 const dictionary = {
     es: {
-        menuAbout: "Bienvenida",
+        menuAbout: "Acerca de mi",
         menuSkills: "Habilidades",
         menuContact: "Contacto",
         menuProjects: "Projectos",
         greeting: "Hola!!",
         introduceText:
-            "Soy un desarrollador web con sede en Canadá. Disfruto hacer interfaces amigables y limpias.",
+            "Saludos, soy un desarrollador web radicado en Canadá. Me apasiona crear interfaces amigables y minimalistas. Actualmente, me desempeño como desarrollador front-end especializado en React. Si tienes algún proyecto en mente, no dudes en comunicármelo. Estoy dispuesto a colaborar y hacer realidad tus ideas.",
         codeEducation: "Ingeniero en Sistemas Computacionales",
         codeSkills: "Analitico, Trabajo en equipo",
         codeLanguage: "Inglés",
         buttonDownload: "Descargar CV",
         aboutText:
-            "Soy Ingeniero en Computación egresado del Instituto Tecnológico de Morelia, trabajé 8 años como supervisor y desarrollador para una empresa de telefonía mexicana (Telmex), y actualmente trabajo como desarrollador front-end con REACT. Si tienes algún proyecto en mente, ¡avísame!",
+            "Hola a todos. Mi nombre es Carlos poseo una Licenciatura en Ingeniería de Sistemas Computacionales, lo cual me ha proporcionado una sólida base en diversos aspectos de la tecnología. Durante los últimos 3 años, me he dedicado activamente al desarrollo web en el área de front-end, donde he adquirido una valiosa experiencia y he perfeccionado mis habilidades en HTML, CSS y JavaScript. También tengo experiencia en frameworks como React.js y disfruto utilizando herramientas como Tailwind CSS para crear interfaces de usuario visualmente atractivas y eficientes. Me apasiona la creación de aplicaciones web interactivas y siempre busco ampliar mis conocimientos en este campo en constante evolución.",
         thanksText:
             "Gracias por interesarte en ponerte en contacto comigo sera un placer trabajar juntos.",
         project1Name: "Clon de WhatsApp",
@@ -41,19 +41,19 @@ const dictionary = {
         links5: { Web: "http://sacosnacionales.com.mx/" },
     },
     en: {
-        menuAbout: "Greeting",
+        menuAbout: "About me",
         menuSkills: "Skills",
         menuContact: "Contact",
         menuProjects: "Projects",
         greeting: "Hello!!",
         introduceText:
-            "I am a web developer based in Canada. I enjoy make friendly and clean interfaces.",
+            "Greetings, I am a web developer based in Canada. I enjoy creating user-friendly and clean interfaces. Currently, I work as a front-end developer specializing in React. If you have any projects in mind, please let me know. I am eager to collaborate and bring your ideas to life.",
         codeEducation: "Bachelor's Degree Computer System Engineer",
         codeSkills: "Analytic mind, Work well in team",
         codeLanguage: "English",
         buttonDownload: "Download Resume",
         aboutText:
-            "I am a Computer Engineer graduated from Instituto Tecnologico de Morelia, I worked 8 years as a supervisor and developer for a Mexican telephony company (Telmex), and currently, I'm working as a front-end developer with REACT. If you have some project in mind, let me know!",
+            "Hello, everyone! My name is Carlos, and I am a computer systems engineering. I hold a Bachelor's Degree in Computer Systems Engineering, which has equipped me with a strong foundation in various aspects of technology. Over the past 3 years, I have been actively involved in front-end web development, where I have gained valuable experience and honed my skills in HTML, CSS, and JavaScript. I am also well-versed in frameworks like React.js, and I enjoy utilizing tools like Tailwind CSS to create visually appealing and efficient user interfaces. I am truly passionate about creating interactive web applications and continuously strive to expand my knowledge in the ever-evolving field of front-end development.",
         thanksText:
             "Thank you for your interest, it will be a pleasure working together.",
         project1Name: "WhatsApp clone",
@@ -80,7 +80,7 @@ const dictionary = {
 };
 
 export function LanguageProvider({ children }) {
-    const [text, setText] = useState(dictionary.es);
+    const [text, setText] = useState(dictionary.en);
 
     function handleLanguage(val) {
         val === "ES" ? setText(dictionary.es) : setText(dictionary.en);

@@ -1,6 +1,6 @@
 import { Greeting } from './Greeting'
 import { Routes, Route, Link } from "react-router-dom"
-import { Skills } from './Skills'
+import { About } from './About'
 import { Work } from './Work'
 import Language from '../context/Language'
 import { useContext } from 'react'
@@ -16,7 +16,7 @@ export function Main(){
             <nav className="item2 m-auto z-0">
                 <div className='fancysmallborder relative'>
                     <div className='flex flex-col list-none bg-[#111111] rounded-tl-md'>
-                        <Link to="skills" className='p-3'>{text.menuSkills}</Link>
+                        <Link to="about" className='p-3'>{text.menuAbout}</Link>
                         <ul className=' p-3 space-y-2'>
                             <li>{text.menuProjects} :</li>
                             <li className='pl-3'>
@@ -39,10 +39,10 @@ export function Main(){
                     </div>
                 </div>
             </nav>
-            <div className="item3 m-auto">
+            <div className="item3 my-auto">
                 <Routes>
                     <Route path="/"  element={<Greeting />} />
-                    <Route path="skills" element={ <Skills /> } />              
+                    <Route path="about" element={ <About /> } />              
                     <Route path="projects" element={ <Work number={number} /> } />                
                 </Routes>
             </div>

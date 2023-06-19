@@ -8,7 +8,6 @@ export function Greeting(){
             <p className='px-4 border-l-4 border-[#2BA30A] leading-loose text-justify'>
                 {text.introduceText}
             </p>
-            <p className='px-4 border-l-4 border-[#2BA30A] leading-loose text-justify'>{text.aboutText}</p>
         </div>
     )
 }

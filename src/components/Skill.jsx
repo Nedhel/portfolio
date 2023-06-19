@@ -1,43 +1,10 @@
-import { SiReact, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiGit, SiGithub, SiJirasoftware } from "react-icons/si";
-import {BsQuestionOctagon} from "react-icons/bs";
-
 export function Skill({skill}){
-    let element;
-    switch (skill.name) {
-        case 'HTML':
-                element=<SiHtml5 className={` text-4xl`} />
-            break;
-        case 'CSS':
-                element=<SiCss3 className={` text-4xl`} />
-            break;
-        case 'JAVASCRIPT':
-                element=<SiJavascript className={` text-4xl`} />
-            break;
-        case 'REACT':
-                element=<SiReact className={` text-4xl`} />
-            break;
-        case 'GIT':
-                element=<SiGit className={` text-4xl`} />
-            break;
-        case 'GITHUB':
-                element=<SiGithub className={` text-4xl`} />
-            break;
-        case 'TAILWIND':
-                element=<SiTailwindcss className={` text-4xl`} />
-            break;
-        case 'JIRA':
-                element=<SiJirasoftware className={` text-4xl`} />
-            break;    
-        default: element=<BsQuestionOctagon className={` text-4xl`} />
-            break;
-    }
     return(
-        <div className="flex flex-col justify-around items-center w-12 md:w-16 lg:w-28 gap-2">
-            <h3 className="lg:text-lg text-xs lg:font-bold">{skill.name}</h3>
-            <div>{element}</div>
+        <>
+            <h3 className="lg:text-lg text-xs lg:font-bold mt-2">{skill.name}</h3>
             <div className="w-full rounded-md bg-slate-200">
-                <div className={`h-full bg-[#518C41] ${skill.percentage} rounded-md text-base text-center`}>{skill.knowladge}/100</div>
+                <div className={`bg-[#518C41] ${skill.percentage} rounded-md text-base text-center`}>{skill.knowladge}/100</div>
             </div>
-        </div>
+        </>
     )
 }
