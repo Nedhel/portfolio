@@ -1,8 +1,6 @@
 import { Skill } from "./Skill"
-
 import { useContext } from 'react'
 import Language from '../context/Language'
-import { Link } from "react-router-dom"
 import pdf from '../assets/resume.pdf'
 
 export function About(){
@@ -58,10 +56,10 @@ export function About(){
     return (
         <div className="flex flex-col gap-4 max-h-[70vh] overflow-y-auto">
             <h1 className='font-bold text-2xl'>{text.menuAbout}</h1>
-            <p className="border-l-4 border-[#2BA30A] px-4 leading-loose text-justify">{text.aboutText}</p>
-            <a href={pdf} target="_blank" rel="noopener noreferrer" download='Resume Carlos Zalpa' className="border border-[#2BA30A] w-fit rounded-md p-1 self-center">Download resume</a>
+            <p className="border-l-4 border-[#328ad2] px-4 leading-loose text-justify">{text.aboutText}</p>
+            <a href={pdf} target="_blank" rel="noopener noreferrer" download='Resume Carlos Zalpa' className="border border-[#328ad2] w-fit rounded-md p-1 self-center">Download resume</a>
             <h1 className='font-bold text-2xl'>{text.menuSkills}</h1>         
-            <div className='border-l-4 border-[#2BA30A] px-4'>
+            <div className='border-l-4 border-[#328ad2] px-4'>
             {skills.map(item=>{
                 return item.id<10?<Skill skill={item} key={item.id} />:null 
             })}

@@ -5,8 +5,8 @@ import { LanguageProvider } from "./context/Language";
 
 function App() {
     return (
-        <section className="bg-[#111111] min-h-screen p-5 lg:px-20 box-border text-white flex justify-center items-center relative z-0">
-            <div className="fancybigborder w-full rounded-md relative bg-[#111111] mainContainer">
+        <section className="bg-[#12191c] min-h-screen p-5 lg:px-20 box-border text-white flex justify-center items-center relative z-0">
+            <div className="fancybigborder w-full rounded-md relative bg-[#12191c] mainContainer">
                 <LanguageProvider>
                     <Navbar />
                     <Main />

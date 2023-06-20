@@ -3,8 +3,7 @@ import { Routes, Route, Link } from "react-router-dom"
 import { About } from './About'
 import { Work } from './Work'
 import Language from '../context/Language'
-import { useContext } from 'react'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 export function Main(){
     const {text}=useContext(Language)
     const [number,setNumber]=useState(0)
@@ -15,7 +14,7 @@ export function Main(){
         <>
             <nav className="item2 m-auto z-0">
                 <div className='fancysmallborder relative'>
-                    <div className='flex flex-col list-none bg-[#111111] rounded-tl-md'>
+                    <div className='flex flex-col list-none bg-[#12191c] rounded-tl-md'>
                         <Link to="about" className='p-3'>{text.menuAbout}</Link>
                         <ul className=' p-3 space-y-2'>
                             <li>{text.menuProjects} :</li>

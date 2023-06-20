@@ -39,13 +39,13 @@ export function Work({number}){
     return(
         <div className='flex flex-col'>
             <h1 className='font-bold text-2xl mb-3 md:mb-10 lg:mb-20'>{title}</h1>
-            <p className='px-4 border-l-4 border-[#2BA30A] leading-loose text-justify'>
+            <p className='px-4 border-l-4 border-[#328ad2] leading-loose text-justify'>
                 {description}
             </p>
-            <ul className='px-4 border-l-4 border-[#2BA30A] leading-loose text-justify'>
+            <ul className='px-4 border-l-4 border-[#328ad2] leading-loose text-justify'>
                 {
                     arrayLinks.map((item)=>{
-                        return <li key={item}><Link to={link[item]} target='_blank' className='border-b-2 border-[#2BA30A]'>{item}</Link></li>
+                        return <li key={item}><Link to={link[item]} target='_blank' className='border-b-2 border-[#328ad2]'>{item}</Link></li>
                     })
                 }
             </ul>
