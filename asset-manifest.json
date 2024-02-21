@@ -1,16 +1,39 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6d5295a3.css",
-    "main.js": "/portfolio/static/js/main.685ca85e.js",
+    "main.css": "/portfolio/static/css/main.5eb6b2bf.css",
+    "main.js": "/portfolio/static/js/main.2d06ecc6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/discovery4.jpg": "/portfolio/static/media/discovery4.256e13b9f3a189d7451d.jpg",
+    "static/media/discovery3.jpg": "/portfolio/static/media/discovery3.e1f9aad5983a40e141ff.jpg",
+    "static/media/discovery2.jpg": "/portfolio/static/media/discovery2.75d5a65aa0031c371c23.jpg",
+    "static/media/sacos.jpg": "/portfolio/static/media/sacos.7cea81fc5551eee5efa6.jpg",
+    "static/media/adCards3.jpg": "/portfolio/static/media/adCards3.6ab20657a8ee0d909783.jpg",
+    "static/media/adCards.jpg": "/portfolio/static/media/adCards.4bc020a7e2dec77ac0c5.jpg",
+    "static/media/adCards4.jpg": "/portfolio/static/media/adCards4.4257e05a915e296f6ca0.jpg",
+    "static/media/discovery5.jpg": "/portfolio/static/media/discovery5.b986375a8c8fbd2f5692.jpg",
+    "static/media/adCards2.jpg": "/portfolio/static/media/adCards2.806d3978c263c863c675.jpg",
+    "static/media/wavehi.jpg": "/portfolio/static/media/wavehi.b47cb9862913e721245c.jpg",
+    "static/media/discovery.jpg": "/portfolio/static/media/discovery.c4bb685f1eeed63c298d.jpg",
+    "static/media/sacos2.jpg": "/portfolio/static/media/sacos2.c0cfa597752901de0bb6.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.b0ffe26e1c64b5fdf96c.pdf",
+    "static/media/wavehi2.jpg": "/portfolio/static/media/wavehi2.ad9c604220a7b1b485a1.jpg",
+    "static/media/wavehi4.jpg": "/portfolio/static/media/wavehi4.dbec879a7f6946318432.jpg",
+    "static/media/sacos3.jpg": "/portfolio/static/media/sacos3.d181321f7c40674e3a6f.jpg",
+    "static/media/wavehi7.jpg": "/portfolio/static/media/wavehi7.f9de03780595ab17e6a9.jpg",
+    "static/media/wavehi6.jpg": "/portfolio/static/media/wavehi6.84505ab24ab404425bbe.jpg",
+    "static/media/creditCard4.jpg": "/portfolio/static/media/creditCard4.8b06dfc26ae97d176db4.jpg",
+    "static/media/creditCard3.jpg": "/portfolio/static/media/creditCard3.a5f083a4ac917f0bde15.jpg",
+    "static/media/creditCard2.jpg": "/portfolio/static/media/creditCard2.d1341d3216f48c89950f.jpg",
+    "static/media/wavehi5.jpg": "/portfolio/static/media/wavehi5.e084a53d4c8558763b2a.jpg",
+    "static/media/wavehi3.jpg": "/portfolio/static/media/wavehi3.e959f7ca17d1ef249df4.jpg",
+    "static/media/creditCard.jpg": "/portfolio/static/media/creditCard.0f905f0613a6cb88a262.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6d5295a3.css.map": "/portfolio/static/css/main.6d5295a3.css.map",
-    "main.685ca85e.js.map": "/portfolio/static/js/main.685ca85e.js.map",
+    "main.5eb6b2bf.css.map": "/portfolio/static/css/main.5eb6b2bf.css.map",
+    "main.2d06ecc6.js.map": "/portfolio/static/js/main.2d06ecc6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d5295a3.css",
-    "static/js/main.685ca85e.js"
+    "static/css/main.5eb6b2bf.css",
+    "static/js/main.2d06ecc6.js"
   ]
 }
